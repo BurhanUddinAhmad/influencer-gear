@@ -228,3 +228,43 @@ section {
     line-height: 2.8rem;
     margin-bottom: 2rem;
 }
+
+/* Footer style  */
+footer {
+    margin-top: 10rem;
+    padding: 8rem 0;
+    background: var(--bg-secondary);
+}
+.footer-fontents {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+.footer-fontents h2 {
+    font-size: 3rem;
+    color: #fff;
+}
+.footer-fontents small {
+    font-size: 1.4rem;
+    color: var(--Text-Gray-300);
+}
+.footer-fontents .social-contact a {
+    text-decoration: none;
+    width: 4rem;
+    height: 4rem;
+    background: var(--Text-Gray-900);
+    color: #fff;
+    padding: 1rem;
+    margin: 1rem .3rem;
+    border-radius: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: .3s ease;
+}
+.social-contact a i {
+    font-size: 1.8rem;
+}
+.social-contact a:hover {
+    background: #222;
+}
