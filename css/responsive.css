@@ -49,4 +49,18 @@
         gap: 2rem;
         flex-wrap: wrap;
     }
+    /* ======= Popular section ====== */
+    .popular-contents {
+    grid-template-columns: repeat(2, 30rem);
+    grid-template-rows: auto;
+    justify-content: center;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .popular-contents {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        justify-content: center;
+        }
 }
