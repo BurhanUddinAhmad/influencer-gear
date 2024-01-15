@@ -45,6 +45,12 @@ p {
     color: var(--text-primary);
     line-height: 2.4rem;
 }
+section {
+    padding-top: 10rem;
+}
+
+/* ======= Common style Ends ========== */
+
 /* ===== Header part =====  */
 
 /* navbar design  */
@@ -120,4 +126,14 @@ p {
     top: -5rem;
     left: -8rem;
     width: 40rem;
+}
+
+/* ==== Sponsor Section ==== */
+.sponsor {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: .1rem solid rgba(0, 0, 0, 0.1);
+    border-bottom: .1rem solid rgba(0, 0, 0, 0.1);
+    padding: 1rem 0;
 }
