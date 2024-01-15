@@ -201,3 +201,30 @@ section {
 .see-more a:hover {
     color: #000;
 }
+/* ===== Featured products ==== */
+.feature {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+.feature-pic {
+    flex-basis: 48%;
+}
+.feature-pic img {
+    width: 100%;
+}
+.feature-detail {
+    flex-basis: 48%;
+}
+.feature-detail h2 {
+    font-size: 3.2rem;
+    font-weight: 700;
+    color: #0A0826;
+    margin-bottom: 2rem;
+}
+.feature-detail p {
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    margin-bottom: 2rem;
+}
